@@ -1,4 +1,3 @@
-
 Feature: Location & Address
 
   Background:
@@ -10,5 +9,3 @@ Feature: Location & Address
     And 		user Click Submit My Use Case Button
     And 		user Verify Use Case Page
 
-
- Scenario: C
