@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.432" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="Login Functionality" name="Test with valid Credentials" time="0.2">
+<failure type="java.lang.NullPointerException" message="Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;com.base.nithish.BaseClass.driver&quot; is null">
+<![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "com.base.nithish.BaseClass.driver" is null
+	at com.base.nithish.BaseClass.Get_Url(BaseClass.java:43)
+	at com.stepdefinition.nithish.StepDef.user_navigate_to_url(StepDef.java:29)
+	at ✽.user Navigate To Url(file:///C:/Users/Welcome/eclipse-workspace/CucumberFramework3/src/test/java/nithish.feature:5)
+]]>
+</failure>
+<system-out><![CDATA[
+Given user Launch Browser...................................................passed
+And user Navigate To Url....................................................failed
+When user Enters Username In The Input Field................................skipped
+When user Enters Password "Password123" In The Input Field..................skipped
+Then user Clicks On Submit Button...........................................skipped
+And It Navigates To Next Page and Verifies It...............................skipped
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  	<parameter name="v1" value="6"></parameter>
+  	<parameter name="v2" value="4"></parameter>
+  	<parameter name="a1" value="42"></parameter>
+  	<parameter name="a2" value="Nithish"></parameter>
+  	<parameter name="a3" value="33"></parameter>
+    <classes>
+      <class name="testNG.TestNG_Parameters"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

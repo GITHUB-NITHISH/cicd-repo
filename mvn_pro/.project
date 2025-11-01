@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>mvn_pro</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>msedgedriver.exe</name>
+			<type>1</type>
+			<location>C:/Users/Welcome/Downloads/edgedriver_win64/msedgedriver.exe</location>
+		</link>
+		<link>
+			<name>src/test/java/testdata2.xlsx</name>
+			<type>1</type>
+			<location>C:/Users/Welcome/Desktop/testdata2.xlsx</location>
+		</link>
+	</linkedResources>
+</projectDescription>
